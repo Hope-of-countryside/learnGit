@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-08-14T12:13:11.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="gRGYVq5oUUG8TRgVXgzH" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-14T12:18:01.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="rBI2iDALjFkHwQJ1Bvsk" version="14.9.5" type="github">
   <diagram id="wgwEC6U9KtvVkRMnJ9dy" name="Page-1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AvFS7q40UL84Hj_ufNhI-12" value="权限修改接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="230" width="100" height="410" as="geometry" />
+          <mxGeometry x="300" y="230" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="AvFS7q40UL84Hj_ufNhI-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AvFS7q40UL84Hj_ufNhI-12">
-          <mxGeometry x="45" y="90" width="10" height="220" as="geometry" />
+          <mxGeometry x="45" y="90" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="AvFS7q40UL84Hj_ufNhI-14" value="授权模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="230" width="100" height="410" as="geometry" />
+          <mxGeometry x="470" y="230" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="AvFS7q40UL84Hj_ufNhI-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AvFS7q40UL84Hj_ufNhI-14">
           <mxGeometry x="45" y="90" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="AvFS7q40UL84Hj_ufNhI-16" value="权限数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="230" width="100" height="410" as="geometry" />
+          <mxGeometry x="690" y="230" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="AvFS7q40UL84Hj_ufNhI-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AvFS7q40UL84Hj_ufNhI-16">
           <mxGeometry x="45" y="90" width="10" height="60" as="geometry" />
@@ -30,7 +30,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvFS7q40UL84Hj_ufNhI-19" value="发起权限修改请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AvFS7q40UL84Hj_ufNhI-18">
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-19" value="发起授权逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AvFS7q40UL84Hj_ufNhI-18">
           <mxGeometry x="-0.261" y="3" relative="1" as="geometry">
             <mxPoint x="13" y="-7" as="offset" />
           </mxGeometry>
@@ -57,7 +57,7 @@
         <mxCell id="AvFS7q40UL84Hj_ufNhI-25" value="返回查询结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="565" y="350" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="AvFS7q40UL84Hj_ufNhI-26" value="没有权限，拒绝访问" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvFS7q40UL84Hj_ufNhI-15" target="AvFS7q40UL84Hj_ufNhI-12">
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-26" value="用户没有权限，拒绝访问" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvFS7q40UL84Hj_ufNhI-15" target="AvFS7q40UL84Hj_ufNhI-12">
           <mxGeometry x="0.0272" y="-10" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint as="offset" />
@@ -97,6 +97,32 @@
           <mxGeometry x="0.0127" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-35" value="系统用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AvFS7q40UL84Hj_ufNhI-35">
+          <mxGeometry x="45" y="90" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvFS7q40UL84Hj_ufNhI-36" target="AvFS7q40UL84Hj_ufNhI-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-39" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;发起权限修改请求&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvFS7q40UL84Hj_ufNhI-13" target="AvFS7q40UL84Hj_ufNhI-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvFS7q40UL84Hj_ufNhI-41" value="显示修改结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="470" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
