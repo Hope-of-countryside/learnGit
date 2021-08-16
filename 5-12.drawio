@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T16:09:16.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="kNUW-UTcug4reDnceT7w" version="14.9.6" type="github"><diagram id="eNwvmtfnUTwQ2Sefj3YD" name="Page-1">7Vjfc+I2EP5rPJM+wBgbzOURQwidKbnrpTNt+ibwGjSRLUcWxNxf35Ulg3+Rwg0puZvygK1PK2l3tfutZMsdR9m9IMl6zgNglmMHmeVOLAd/AxcfCtlppHdrexpZCRoY7AA80m9gQNugGxpAWhGUnDNJkyq45HEMS1nBiBD8tSoWclZdNSEraACPS8Ka6J80kGuNfnKGB3wGdLUuVu55t7onIoWwsSRdk4C/liD3znLHgnOp36JsDEx5r/CLHjc90rtXTEAsTxkw+/x3ECefYRw+Jff898Ht9OFbp3DzlrCNsdhyPIYT+onSWe6MI7yXjVLUj4hY0dhyR9hrJxn+I5ibq/CO5Inu65f6JGSyQxhdmXFL1BjEYU58W5lnvvKiAEYBSSTl8ZjHUnDG8kFMi04X9WGIJXVsLZQVRVQVC/aOr/1dVjMIZcns5txKdgEhFzAjcYB2pFr8D0Hi1EDWwLcGk7eMeT/dSIgbUlHNIxHupB8vUvU4T893c3r5/w1rpNLWz909pxmIG2Li6Cu8bCCVv7RYWBO5xDaco+2otAEXU9epKOpsQUiKzDbSmTjJc9U3eTnRceJzlApZzlMhRf5w/RCTz/ByzzHtKYkoU5Q+A7YFNavadhkxJbRfu8xNhq6UDpCVIMNV98AjkGKHIqa3Mxx2B3pQUTsGhqxeD0TsOkZmXSZhz+0ODU4M/6/2CxwoEl8MS57DmL2PzJiPu1RC9FPw5SYF8etEi9H4Ihn5fUo8kAi0YCoFjVfX0SSFNMWEv74ikkbIODkb1bZmIX6wEFuuYfn8BUREc9/eaLdqvrUXeMy8joe1WkRg3GHW30QkubpKmAZbuBNinq5u8h0f76PQ6LblSJs/YRnqe12nWoc6w2Ydcjy7pQ4VBevyRchpFKG7TEIcpA13IzhS9yBsLRhfPqNbECo86enmNPfxxK66D70mdn8pHCuxaT6V+yaZGaRbO9M66vaUb8QSTriOSAxNkCdUYQgq17fmNpb2qFfskQBGJN1Wb3hte2Sm+8LzkC9Coj/4tD9e7IqLbm2ntaVmYPlS9u9zuf3aXNoZjbnywNlbelIsPXztkfEt9Ddk/ryFB/Iyh1mnGUof6DxTuXj8mGeZD1Ebz7mL5JVH/n8POXYPcVv4/13vIa1p229J2+PUzxOIK1Tfq9YBp8b8GZUl4sfWU6nnQPuqUbD+sWpxqA//RbV4i+KuUSzc5vkBjwVd267FxakFw/GaxaffMt87F41BI/rWpOXsgQ7/jSyAVaOrSHVTBVy/zggRDQI1hy8AyZAs8vlUrCTKntxC/RGqLXrezJZ62u8/HJtFrPK32VY6sLtur+9dJDY6tRE8DFM4c7uwefiErMUPX+Ldu38A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-16T17:09:02.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="uHQQF4yb1jE31CSkOc7z" version="14.9.6" type="github">
+  <diagram id="eNwvmtfnUTwQ2Sefj3YD" name="Page-1">
+    <mxGraphModel dx="2253" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HOZdnpOeCfYpGoQ59FNz-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AdaptionController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ beforeHandlers: TransHandler[]&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ afterHandlers:&amp;nbsp;TransHandler[]&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ transBeforeMixer(adaptionRequest):&amp;nbsp;adaptionRequest&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ callMixer(MixerRequest): MixerResponse&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ transAfterMixer(adaptionResponse): adaptionResponse&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-77.5" y="150" width="325" height="163.75" as="geometry" />
+        </mxCell>
+        <mxCell id="HOZdnpOeCfYpGoQ59FNz-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SystemController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ userID: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ userName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ session: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ timestamp: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ checkPermission(string): bool&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ checkParameter(map): bool&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ serveErrMsg(int, string): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-46.25" y="-70" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HOZdnpOeCfYpGoQ59FNz-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HOZdnpOeCfYpGoQ59FNz-10" target="HOZdnpOeCfYpGoQ59FNz-11" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="458.75" y="220" as="sourcePoint" />
+            <mxPoint x="458.75" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR1aC9e4uaMkveNaqMeH-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TransHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ transParamter(paramter): paramter&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-77.5" y="370" width="325" height="163.75" as="geometry" />
+        </mxCell>
+        <mxCell id="NR1aC9e4uaMkveNaqMeH-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HOZdnpOeCfYpGoQ59FNz-10" target="NR1aC9e4uaMkveNaqMeH-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="346.25" y="150.005" as="sourcePoint" />
+            <mxPoint x="268.75" y="240.005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR1aC9e4uaMkveNaqMeH-5" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NR1aC9e4uaMkveNaqMeH-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.3146" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
