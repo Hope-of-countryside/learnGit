@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T00:14:29.625Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="EKS31Ya5_ElDe48IC-Z7" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-19T00:14:54.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="4ysoq9FkgmWbs8Brglwj" version="15.2.7" type="github">
   <diagram id="lMZxWY8vp80AYq6Nmsda" name="Page-1">
     <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,22 +57,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-qjMKxULYnQZQB8kUf1q-8" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="520" y="260" width="60" height="150" as="geometry" />
+          <mxGeometry x="520" y="260" width="90" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-qjMKxULYnQZQB8kUf1q-9" value="Model" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="640" y="280" width="120" height="30" as="geometry" />
+          <mxGeometry x="690" y="280" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qjMKxULYnQZQB8kUf1q-10" value="辅助工具包" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="640" y="240" width="120" height="30" as="geometry" />
+          <mxGeometry x="690" y="240" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qjMKxULYnQZQB8kUf1q-11" value="Session" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="640" y="320" width="120" height="30" as="geometry" />
+          <mxGeometry x="690" y="320" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qjMKxULYnQZQB8kUf1q-12" value="日志处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="640" y="360" width="120" height="30" as="geometry" />
+          <mxGeometry x="690" y="360" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qjMKxULYnQZQB8kUf1q-13" value="缓存处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="640" y="400" width="120" height="30" as="geometry" />
+          <mxGeometry x="690" y="400" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
